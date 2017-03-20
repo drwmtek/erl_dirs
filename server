@@ -1,2 +1,2 @@
 erlc server_node.erl
-erl -sname srv_nod@localhost -eval "server_node:start()." +pc unicode
+erl -sname srv_node@localhost -eval "server_node:start()." +pc unicode
