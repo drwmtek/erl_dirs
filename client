@@ -1,0 +1,2 @@
+erlc client_node.erl
+erl -sname cl@localhost -eval "client_node:start(srv_node@localhost)." +pc unicode
